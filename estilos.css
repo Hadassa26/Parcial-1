@@ -1,0 +1,24 @@
+
+h1{
+	text-align: center;
+	stroke: 400px white;
+	text-shadow: 0 0 0.1em 0081A7;
+	font-family: 'Times New Roman';
+
+	
+
+}
+input{
+	margin-bottom: 8px;
+	background: transparent;
+	color: 8E9AAF;
+}
+label{
+	line-height: 19px;
+}
+
+
+body{
+	background: lightblue;
+	color: FEEAFA;
+}

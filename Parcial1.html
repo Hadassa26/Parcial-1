@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" href="HE.png"/>
+</head>
+    <body>
+    <h1>Ingresar Datos</h1><br>
+    <h3>Nombre del Titular: <input type="text"  id="Nombre" placeholder="ingresa los datos"></h3> 
+    <h3>Edad: <input type="text"  id="Edad" placeholder="ingresa los datos"></h3> 
+    <h3>Telefono: <input type="text"  id="Telefono" placeholder="ingresa los datos"></h3> 
+    <h3>Saldo: <input type="text"  id="Saldo" placeholder="ingresa los datos"></h3> 
+    <button id="boton" class="btn btn-success" type="reset" onclick="mostrarDatos()">Mostrar Datos</button>
+    <button id="boton2" class="btn btn-success" type="reset" onclick="interes()">Generar Interes</button><br>
+
+    <div class="container">
+        <table class="table" id="tabla">
+            <thead class="thead-inverse">
+                <tr>
+                    <th>Nombre del Titular</th>
+                    <th>Edad</th>
+                    <th>Telefono</th>
+                    <th>Saldo</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+  <script  src="Parcial1.js"></script>
+    
+    
+    
+</body>
+</html>
